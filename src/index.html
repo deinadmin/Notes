@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login to mybulli.tk</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.css" integrity="sha256-8BrtNNtStED9syS9F+xXeP815KGv6ELiCfJFQmGi1Bg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css">
+    <script defer src="render.js"></script>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <div class="container">
+      <div class="field">
+        <div class="control">
+          <input id="email" class="input is-primary" type="text" placeholder="Email">
+        </div>
+      </div>
+      <div class="field">
+        <div class="control">
+          <input id="password" class="input is-primary" type="password" placeholder="Password">
+        </div>
+      </div>
+    </div>
+    <button id="loginBtn" class="button is-primary button-block is-fullwidth">Login</button>
+    <label >Don't have an account? <a id="createAcc">Create</a></label>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+#windowtitle {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.field {
+    width: 90%;
+    margin: auto;
+}
+.textarea {
+    resize: none;
+}
+.buttons {
+    width: 90;
+    margin: auto;
+}

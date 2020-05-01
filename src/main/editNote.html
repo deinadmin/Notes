@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.css" integrity="sha256-8BrtNNtStED9syS9F+xXeP815KGv6ELiCfJFQmGi1Bg=" crossorigin="anonymous" />
+    <title>Edit Note</title>
+    <link rel="stylesheet" href="newNote.css">
+</head>
+<body>
+    <h1 id="windowtitle">Edit Note</h1>
+    <div class="field">
+        <div class="control">
+            <input id="title" class="input is-info" type="text" placeholder="Note Title">
+            <input id="id" type="text" hidden>
+        </div>
+    </div>
+    <div class="field">
+        <div class="control">
+            <textarea id="content" class="textarea is-info" placeholder="Note Content" rows="6"></textarea>
+        </div>
+    </div>
+    <div class="field is-grouped">
+        <p class="control">
+          <button id="saveBtn" class="button is-success">
+            Update Note
+          </button>
+        </p>
+        <p class="control">
+          <button id="cancelBtn" class="button is-danger">Cancel</button>
+        </p>
+      </div>
+      <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+      <script src="editNote.js"></script>
+</body>
+</html>

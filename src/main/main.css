@@ -1,0 +1,14 @@
+.note-name {
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+#notes-here {
+    margin-top: 90px;
+    margin-left: 10px;
+}
+.delete-note {
+    margin-right: 10px;
+}
+.edit-note {
+    margin-right: 10px;
+}
