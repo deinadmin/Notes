@@ -97,8 +97,8 @@ $(document).on("click", ".edit-note", function() {
         fullscreenable: false,
         fullscreen: false,
         maximizable: false,
-        parent: curWin,
-        modal: true
+        modal: true,
+        parent: curWin
     })
     win.on('closed', () => {
         win = null
