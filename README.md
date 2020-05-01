@@ -6,3 +6,5 @@ You can download packaged versions (.exe, .deb, .app etc.) from the [dowload pag
 > The download page will be coming in a few days...
 ## How to use?
 The app is actually self-explaining. Just login with your account (which you can create [here](https://mybulli.tk/signup)) and you will see all your created notes, which you can edit, delete or view. You can also create apps by pressing the "New Note"-Button.
+## Donation
+[Buy me a smile 🙂](https://www.buymeacoffee.com/deinadmin)
